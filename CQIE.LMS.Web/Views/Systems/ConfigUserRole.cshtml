@@ -1,0 +1,42 @@
+﻿@inject CQIE.LMS.Services.IRoleServices roleService
+@model CQIE.LMS.Models.Identity.SysUser
+
+<h1>
+    为用户分配角色
+</h1>
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+</style>
+<form method="post" action="~/Systems/SaveUserRole">
+    <table class="tbl">
+        <tr>
+            <td>当前用户：</td>
+            <td>
+                <input type="hidden" name="userId" value="@(Model == null ? 0 : Model.Id)" />
+                <span>@Model.UserName</span>
+            </td>
+        </tr>
+        <tr>
+            <td>角色：</td>
+            <td>
+                @{
+                    var roles = roleService.GetRoles();
+                    <select name="roleId">
+                        @foreach (var role in roles)
+                        {
+                            <option value="@role.Id">@role.Name</option>
+                        }
+                    </select>
+                }
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="保存" /></td>
+        </tr>
+    </table>
+</form>

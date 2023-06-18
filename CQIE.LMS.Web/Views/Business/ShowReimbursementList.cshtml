@@ -1,0 +1,57 @@
+﻿@model IQueryable<CQIE.LMS.Models.ExpenseReimbursementOrder>
+
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+</style>
+<h1>费用报销</h1>
+<form method="get" action="~/Business/SelectShowReimbursementOrder">
+    <p>
+        报销单号: <input type="text" name="order" />
+        <input type="submit" value="搜索" />
+        <button type="reset" onclick="reset()">重置</button>
+    </p>
+</form>
+<table class="tbl" border="1">
+    <tr>
+        <th>删除</th>
+        <th>修改</th>
+        <th>报销单</th>
+        <th>报销姓名</th>
+        <th>报销费用</th>
+        <th>费用来源</th>
+        <th>状态</th>
+        <th>原因说明</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><a href="~/Business/RemoveReimbursement/@item.Id">删除</a></td>
+            <td><a href="~/Business/EditReimbursement/@item.Id">修改</a></td>
+            <td>@item.DetailsNumber</td>
+            <td>@item.FinanceStaffAndDriver.NormalizedUserName</td>
+            <td>@item.FeeAmount</td>
+            <td>@item.SourceOfExpensesDetails</td>
+            @if (item.Status == 3)
+            {
+                <td>待审核</td>
+            }
+            else if (item.Status == 2)
+            {
+                <td>未通过</td>
+            }
+            else if (item.Status == 1)
+            {
+                <td>通过</td>
+            }
+            @if(item.Explain != null)
+            {
+                <td>@item.Explain</td>
+            }
+        </tr>
+    }
+</table>

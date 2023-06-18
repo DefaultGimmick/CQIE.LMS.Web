@@ -1,0 +1,54 @@
+﻿@model IQueryable<CQIE.LMS.Models.Identity.SysRole>
+@inject CQIE.LMS.Services.IRoleMenuServices rolemenuService
+<h1>
+    角色管理页面
+</h1>
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+</style>
+
+<a href="~/Systems/EditRole">
+    <input type="button" value="新增角色" />
+</a>
+
+<table class="tbl" border="1">
+    <tr>
+        <th>修改</th>
+        <th>删除</th>
+        <th>ID</th>
+        <th>角色名</th>
+        <th>我的菜单</th>
+        <th>分配菜单</th>
+
+    </tr>
+    @foreach (var role in Model.ToArray())
+    {
+        <tr>
+            <td><a href="~/Systems/EditRole/@role.Id">修改</a></td>
+            <td><a href="~/Systems/RemoveRole/@role.Id">删除</a></td>
+            <td>@role.Id</td>
+            <td>@role.Name</td>
+            <td>
+                @{
+                    var menus = rolemenuService.GetRoleMenuList(role.Id);
+                    <ul>
+                        @foreach (var menu in menus)
+                        {
+                            <li>@menu.Name</li>
+
+                        }
+                    </ul>
+
+                }
+            </td>
+            <td><a href="~/Systems/ConfigRoleMenu/@role.Id">分配菜单</a></td>
+        </tr>
+    }
+
+
+</table>

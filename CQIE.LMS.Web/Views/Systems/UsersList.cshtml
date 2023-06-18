@@ -1,0 +1,66 @@
+﻿@model IQueryable<CQIE.LMS.Models.Identity.SysUser>
+@inject CQIE.LMS.Services.IUserRoleServices userRoleService
+
+<style type="text/css">
+    .tbl {
+    }
+        .tbl a {
+            color: red
+        }
+</style>
+<h1>用户管理界面</h1>
+<a href="~/Systems/EditUser">
+    <input type="button" value="新增用户" />
+</a>
+
+<form method="get" action="~/Systems/SelectUser">
+    <p>
+        用户名: <input id ="a" type="text" name="Name" />
+        <input type="submit" value="搜索" />
+        <button type="reset" onclick="reset()">重置</button>
+    </p>
+</form>
+<script type="text/javascript">
+    function reset()
+    {
+        $("#a").val("");
+    }
+</script>
+
+<table class="tbl" border="1">
+    <tr>
+        <th>修改</th>
+        <th>删除</th>
+        <th>ID</th>
+        <th>登录账户</th>
+        <th>邮件</th>
+        <th>手机号</th>
+        <th>密码</th>
+        <th>我的角色</th>
+        <th>分配角色</th>
+    </tr>
+    @foreach (var user in Model.ToArray())
+    {
+        <tr>
+            <td><a href="~/Systems/EditUser/@user.Id">修改</a></td>
+            <td><a href="~/Systems/RemoveUser/@user.Id">删除</a></td>
+            <td>@user.Id</td>
+            <td>@user.UserName</td>
+            <td>@user.Email</td>
+            <td>@user.PhoneNumber</td>
+            <td><a href="~/Systems/ResetUserPwd/@user.Id">重置</a></td>
+            <td>
+                @{
+                    var roles = userRoleService.GetUserRoleList(user.Id);
+                    <ul>
+                        @foreach (var role in roles)
+                        {
+                            <li>@role.Name</li>                       
+                        }
+                    </ul>
+                }
+            </td>
+            <td><a href="~/Systems/ConfigUserRole/@user.Id">分配角色</a></td>
+        </tr>
+    }
+</table>

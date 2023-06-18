@@ -1,0 +1,62 @@
+﻿@model IQueryable<CQIE.LMS.Models.CargoConsignmentOrder>
+
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+</style>
+<h1>货物托运订单列表</h1>
+
+<a href="~/Business/AddOrder">
+    <input type="button"  value="新增订单" />
+</a>
+
+<form method="get" action="~/Business/SelectOrder">
+    <p>
+        货运单号: <input type="text" name="order" />
+        <input type="submit" value="搜索" />
+        <button type="reset" onclick="reset()">重置</button>
+    </p>
+</form>
+
+<script type="text/javascript">
+    function reset() {
+        $("#a").val("");
+    }
+</script>
+
+<table class="tbl" border="1">
+    <tr>
+        <th>修改</th>
+        <th>删除</th>
+        <th>订单号</th>
+        <th>收货人</th>
+        <th>托运人</th>
+        <th>状态</th>
+        <th>查看详情</th>
+        <th>调度订单</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><a href="~/Business/EditOrder/@item.Id">修改</a></td>
+            <td><a href="~/Business/RemoveOrder/@item.Id">删除</a></td>
+            <td>@item.ConsignmentNumber</td>
+            <td>@item.ConsigneeName</td>
+            <td>@item.SenderName</td>
+            @if(item.Status == 1)
+            {
+                <td>已调度</td>
+            }
+            else if(item.Status == 2)
+            {
+                <td>未调度</td>
+            }
+            <td><a href="~/Business/EditOrder/@item.Id">查看详情</a></td>
+            <td><a href="~/Business/AddDispatch/@item.Id">调度订单</a></td>
+        </tr>
+    }
+</table>

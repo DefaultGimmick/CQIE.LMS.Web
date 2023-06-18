@@ -1,0 +1,10 @@
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\bin\Debug\netcoreapp3.1\MyModels.deps.json
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\bin\Debug\netcoreapp3.1\MyModels.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\bin\Debug\netcoreapp3.1\MyModels.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\obj\Debug\netcoreapp3.1\MyModels.csproj.AssemblyReference.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\obj\Debug\netcoreapp3.1\MyModels.GeneratedMSBuildEditorConfig.editorconfig
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\obj\Debug\netcoreapp3.1\MyModels.AssemblyInfoInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\obj\Debug\netcoreapp3.1\MyModels.AssemblyInfo.cs
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\obj\Debug\netcoreapp3.1\MyModels.csproj.CoreCompileInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\obj\Debug\netcoreapp3.1\MyModels.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\MyModels\obj\Debug\netcoreapp3.1\MyModels.pdb

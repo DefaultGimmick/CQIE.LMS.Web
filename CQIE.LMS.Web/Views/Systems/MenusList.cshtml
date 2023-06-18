@@ -1,0 +1,43 @@
+﻿@model IQueryable<CQIE.LMS.Models.SystemMenu>
+
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+</style>
+<h1>菜单列表</h1>
+
+<a href="~/Systems/EditMenu">
+    <input type="button" value="新增菜单" />
+</a>
+
+<script type="text/javascript">
+    function reset() {
+        $("#a").val("");
+    }
+</script>
+
+<table class="tbl" border="1">
+    <tr>
+        <th>修改</th>
+        <th>删除</th>
+        <td>ID</td>
+        <td>名称</td>
+        <td>Url</td>
+        <td>ParentID</td>
+    </tr>
+    @foreach (var menu in Model)
+    {
+        <tr>
+            <td><a href="~/Systems/EditMenu/@menu.Id">修改</a></td>
+            <td><a href="~/Systems/RemoveMenu/@menu.Id">删除</a></td>
+            <td>@menu.Id</td>
+            <td>@menu.Name</td>
+            <td>@menu.Url</td>
+            <td>@menu.ParentID</td>
+        </tr>
+    }
+</table>

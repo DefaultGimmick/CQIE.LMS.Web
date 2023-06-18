@@ -1,0 +1,59 @@
+﻿@model IQueryable<CQIE.LMS.Models.FreightDispatchOrder>
+
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+</style>
+
+<h1>调度单列表</h1>
+<form method="get" action="~/Business/SelectDispatchOrder">
+    <p>
+        调度单号: <input type="text" name="order" />
+        <input type="submit" value="搜索" />
+        <button type="reset" onclick="reset()">重置</button>
+    </p>
+</form>
+<a href="~/Business/ShowReimbursementList">
+    <input type="button" value="查看报销单列表" />
+</a>
+<table class="tbl" border="1">
+    <tr>
+        <th>删除</th>
+        <th>修改</th>
+        <th>ID</th>
+        <th>订单号</th>
+        <th>收货人</th>
+        <th>送货人</th>
+        <th>送货时间</th>
+        <th>状态</th>
+        <th>查看详情</th>
+        <th>报销订单</th>
+    </tr>
+    @foreach (var order in Model.ToArray())
+    {
+        <tr>
+            <td><a href="~/Business/RemoveDispatch/@order.Id">删除</a></td>
+            <td><a href="~/Business/EditDispatch/@order.Id">修改</a></td>
+            <td>@order.Id</td>
+            <td>@order.DispatchNumber</td>
+            <td>@order.consignmentOrder.ConsigneeName</td>
+            <td>@order.consignmentOrder.SenderAddress</td>
+            <td>@order.CreateTime</td>
+            @if (order.Status == 1)
+            {
+                <td>已报销</td>
+            }
+            else if (order.Status == 2)
+            {
+                <td>未报销</td>
+            }
+            <td><a href="~/Business/EditDispatch/@order.Id">查看调度订单</a></td>
+            <td><a href="~/Business/AddReimbursement/@order.Id">报销调度订单</a></td>
+        </tr>
+    }
+
+</table>

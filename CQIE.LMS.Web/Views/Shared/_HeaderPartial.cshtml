@@ -1,0 +1,14 @@
+﻿@inject CQIE.LMS.Web.Models.SessionService session
+<div class="header">
+    <div>
+        <span class="system-name">物流管理系统</span>
+        <span class="ver">专业版</span>
+    </div>
+    @if (session != null && session.IsAuthenticated)
+    {
+        <div>
+            <span class="loginame">@session.UserName</span>
+            <a href="~/Account/Logout">退出登录</a>
+        </div>
+    }
+</div>

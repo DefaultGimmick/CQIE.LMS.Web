@@ -1,0 +1,180 @@
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验六\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+D:\框架程序设计\实验七\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\项目\实验八\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\工程学院\1. 软件学院\2021-2022学年\第二学期\01 框架程序设计\资源\课堂练习\课堂练习4 - 副本\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+C:\Users\Jiangzefeng\Desktop\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+D:\JiangZefeng\工程学院\教研室\框架-2022\框架程序设计-江泽锋\PPT\课堂练习-4 - 学生\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+D:\Tencent Files\908375319\FileRecv\课堂练习-4 - 学生23\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\文档\Tencent Files\QQ\物流管理系统\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\文档\Tencent Files\QQ\209001030李杰\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.deps.json
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.dll
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.dll
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Models.pdb
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\bin\Debug\netcoreapp3.1\CQIE.LMS.Utility.pdb
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.AssemblyReference.cache
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfoInputs.cache
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.AssemblyInfo.cs
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CoreCompileInputs.cache
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.csproj.CopyComplete
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.dll
+E:\文档\Tencent Files\QQ\CQIE.LMS.Web\CQIE.LMS.DBManager\obj\Debug\netcoreapp3.1\CQIE.LMS.DBManager.pdb

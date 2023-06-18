@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyServices\\MyServices.csproj": {}
+  },
+  "projects": {
+    "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyModels\\MyModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyModels\\MyModels.csproj",
+        "projectName": "MyModels",
+        "projectPath": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyModels\\MyModels.csproj",
+        "packagesPath": "C:\\Users\\中英\\.nuget\\packages\\",
+        "outputPath": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\中英\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "d:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "http://www.cyt369.com:8090/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyServices\\MyServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyServices\\MyServices.csproj",
+        "projectName": "MyServices",
+        "projectPath": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyServices\\MyServices.csproj",
+        "packagesPath": "C:\\Users\\中英\\.nuget\\packages\\",
+        "outputPath": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\中英\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "d:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "http://www.cyt369.com:8090/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyModels\\MyModels.csproj": {
+                "projectPath": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\01 框架程序设计\\资源\\项目\\MyModels\\MyModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

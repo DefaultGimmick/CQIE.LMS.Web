@@ -1,0 +1,130 @@
+﻿@model CQIE.LMS.Models.CargoConsignmentOrder
+
+
+<div>
+<form action="~/Business/SaveOrder" method="post">
+    <div>
+        <table border="1" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="9" style="text-align: center">
+                        <h2>货物托运单</h2>
+                        <span style="text-align:right; color:red">NO.@(Model == null ? "" : Model.ConsignmentNumber)</span>
+                        <input type="hidden" name="Id" value="@(Model==null?0:Model.Id)" />
+                        <input type="hidden" name="Status" value="@(Model==null?0:Model.Status)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:left">发站:<input type="text" name="ShippingLocation" value="@(Model == null ? "" : Model.ShippingLocation)" /></td>
+                    <td colspan="3" style="text-align:left">到站:<input type="text" name="ReceivingLocation" value="@(Model == null ? "" : Model.ReceivingLocation)" /></td>
+                    <td>托运日期</td>
+                    <td colspan="2"><input type="text" name="DateOfShipment" value="@(Model == null ? DateTime.Now : Model.DateOfShipment)" /></td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="2">寄件人</td>
+                    <td>名称</td>
+                    <td colspan="2"><input type="text" name="SenderName" value="@(Model == null ? "" : Model.SenderName)" /></td>
+                    <td>电话</td>
+                    <td colspan="2"><input type="text" name="SenderTelephone" value="@(Model == null ? "" : Model.SenderTelephone)" /></td>
+                    <td rowspan="4" colspan="2" style="text-align:left; height:50px" valign="top">备注:<input type="text" name="Notes" value="@(Model == null ? "" : Model.Notes)" /></td>
+                </tr>
+                <tr>
+                    <td>地址</td>
+                    <td colspan="2"><input type="text" name="SenderAddress" value="@(Model == null ? "" : Model.SenderAddress)" /></td>
+                    <td>Email</td>
+                    <td colspan="2"><input type="text" name="SenderEmail" value="@(Model == null ? "" : Model.SenderEmail)" /></td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="2">收货人</td>
+                    <td>名称</td>
+                    <td colspan="2"><input type="text" name="ConsigneeName" value="@(Model == null ? "" : Model.ConsigneeName)" /></td>
+                    <td>电话</td>
+                    <td colspan="2"><input type="text" name="ConsigneeTelephone" value="@(Model == null ? "" : Model.ConsigneeTelephone)" /></td>
+                </tr>
+                <tr>
+                    <td>地址</td>
+                    <td colspan="2"><input type="text" name="ConsigneeAddress" value="@(Model == null ? "" : Model.ConsigneeAddress)" /></td>
+                    <td>Email</td>
+                    <td colspan="2"><input type="text" name="ConsigneeEmail" value="@(Model == null ? "" : Model.ConsigneeEmail)" /></td>
+                </tr>
+                <tr>
+                    <td>货物名称</td>
+                    <td>数量</td>
+                    <td>规格</td>
+                    <td>重量(kg)</td>
+                    <td>体积(立方)</td>
+                    <td>运费(元)</td>
+                    <td>送货费(元)</td>
+                    <td>保险费(元)</td>
+                    <td>合计费用(元)</td>
+
+                </tr>
+                @if (Model == null)
+                {
+                    <tr>
+                        <td><input type="text" name="Name" /></td>
+                        <td><input type="text" name="Quantity" /></td>
+                        <td><input type="text" name="GoodsSKU" /></td>
+                        <td><input type="text" name="GoodsWeight" /></td>
+                        <td><input type="text" name="Volume" /></td>
+                        <td><input type="text" name="ShippingUnitPrice" /></td>
+                        <td><input type="text" name="DeliveryExpense" /></td>
+                        <td><input type="text" name="Premium" /></td>
+                        <td><input type="text" name="TotalCost" /></td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var f in Model.Freights.ToArray())
+                    {
+                        <tr>
+                            <td><input type="text" name="Name" value="@(f == null ? "" : f.Name)" /></td>
+                            <td><input type="text" name="Quantity" value="@(f ==null?0:f.Quantity)" /></td>
+                            <td><input type="text" name="GoodsSKU" value="@(f ==null? "" :f.GoodsSKU)" /></td>
+                            <td><input type="text" name="GoodsWeight" value="@(f == null ? 0 : f.GoodsWeight)" /></td>
+                            <td><input type="text" name="Volume" value="@(f == null ? 0 : f.Volume)" /></td>
+                            <td><input type="text" name="ShippingUnitPrice" value="@(f == null ? 0 : f.ShippingUnitPrice)" /></td>
+                            <td><input type="text" name="DeliveryExpense" value="@(f == null ? 0 : f.DeliveryExpense)" /></td>
+                            <td><input type="text" name="Premium" value="@(f == null ? 0 : f.Premium)" /></td>
+                            <td><input type="text" name="TotalCost" value="@(f == null ? 0 : f.TotalCost)" /></td>
+                        </tr>
+                    }
+                }
+
+            <td>付款方式</td>
+            <td colspan="3">
+                    @Html.RadioButton("PaymentMethod", 0)<span>现金</span>&nbsp;
+                    @Html.RadioButton("PaymentMethod", 1)<span>月结</span>&nbsp;
+                    @Html.RadioButton("PaymentMethod", 2)<span>收货人付款</span>
+            </td>
+            <td colspan="3">
+                提货方式:&nbsp;
+                    @Html.RadioButton("ReceivingMethod", 0)<span>自提</span>&nbsp;
+                    @Html.RadioButton("ReceivingMethod", 1)<span>送货上门</span>
+            </td>
+            <td colspan="2" rowspan="5" style="text-align:left" valign="top">
+                货物托运注意事项:<br />
+                1.易碎物品不保证100%完整<br />
+                2.收货人签字确认后视为货物<br />
+                运输完成<br />
+                3.货物根据体积和重量计费，对<br />
+                未保护的货物不保证货物的完整性
+            </td>
+            <tr>
+                <td>承运单位</td>
+                <td colspan="3"><input type="text" name="Carrier" value="@(Model == null ? "" : Model.Carrier)" /></td>
+                <td>电话</td>
+                <td colspan="2"><input type="text" name="Telephone" value="@(Model == null ? "" : Model.Telephone)" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="3" style="text-align:left" valign="top">承运代表签名(盖章)</td>
+                <td colspan="2" rowspan="3" style="text-align:left" valign="top">托运代表签名(盖章)</td>
+                <td colspan="2" rowspan="3" style="text-align:left" valign="top">收货人签名</td>
+            </tr>
+            <tr></tr>
+        </table>
+    </div>
+    <div>
+        <input type="submit" value="提交" style="border: solid 0px" />
+    </div>
+</form>
+</div>

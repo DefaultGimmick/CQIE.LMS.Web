@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQIE.LMS.DBManager\CQIE.LMS.DBManager.csproj" />
+    <ProjectReference Include="..\CQIE.LMS.Models\CQIE.LMS.Models.csproj" />
+  </ItemGroup>
+
+</Project>

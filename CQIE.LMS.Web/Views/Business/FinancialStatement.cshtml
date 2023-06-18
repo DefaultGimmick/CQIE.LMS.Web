@@ -1,0 +1,201 @@
+﻿@model IQueryable<CQIE.LMS.Models.Dtos.FinancialStatement>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="~/js/echarts.min.js"></script>
+    <script src="~/js/jquery-3.6.1.js"></script>
+    <style>
+        #main1 {
+            width: 50%;
+            height: 240px;
+            background-color: #d56e14;
+            display: inline-block;
+        }
+
+        #main2 {
+            width: 50%;
+            height: 240px;
+            background-color: #259f95;
+            float: right;
+            margin-top: 0;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+<body>
+    <h4>图表</h4>
+    <div id="main1" ></div>
+    <div id="main2" ></div>
+    <h4>报表</h4>
+    <a href="~/Business/OutExcel">
+        <input type="button" value="导出Excel" />
+    </a>
+    <table class="tbl" border="1">
+        <tr>
+            <th>项目名称</th>
+            <th>收入总额</th>
+            <th>报销项目</th>
+            <th>报销费用</th>
+            <th>利润</th>
+            <th>支付方式</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProjectName</td>
+                <td>@item.TotalAmount</td>
+                <td>@item.SourceOfExpensesDetails</td>
+                <td>@item.FeeAmount</td>
+                <td>@item.Profit</td>
+                @if (item.PaymentMethod == "0")
+                {
+                    <td>现金支付</td>
+                }
+                else
+                {
+                    <td>银行支付</td>
+                }
+            </tr>
+        }
+    </table>
+
+    <script>
+        $(function(){
+            $.ajax({
+                type: "Post",
+                url: "/Business/GetPieChart",
+                data: {},
+                success: function (data) {
+                    console.log(data);
+                    // 指定图表的配置项和数据
+                    var myChart = echarts.init(document.getElementById('main1'));
+                    // 需要设置给饼图的数据
+                    var pieData = [
+                        {
+                            name: "货运单",
+                            value: data.order
+                        },
+                        {
+                            name: '调度单',
+                            value: data.dispatch
+                        },
+                        {
+                            name: '报销单',
+                            value: data.reimbursement
+                        },
+                    ]
+                    var option = {
+                        // 注意：饼图不是直角坐标系图表，就不用配置x轴和y轴了
+                        series: [
+                            {
+                                type: 'pie',
+                                data: pieData
+                            },             
+                        ],
+                        title: {
+                            text: '月度业务统计',
+                            left: 'center'
+                        },
+                        label: {//饼图文字的显示
+                            show: true, //默认  显示文字
+                            formatter: function (arg) {
+                                console.log(arg);
+                                return arg.name + ' 完成 ' + arg.value + " 单" + '\n' + arg.percent + "%"
+                            }
+                        }
+
+                    }
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                },  //end success
+                error: function (jqXHR) {
+                    console.log("请求失败");
+                }
+            });  //end ajax
+        });
+
+        $(function () {
+            $.ajax({
+                type: "Post",
+                url: "/Business/GetBarChart",
+                data: {},
+                success: function (data) {
+                    console.log(data);
+                    // 指定图表的配置项和数据
+                    var myChart = echarts.init(document.getElementById('main2'));
+                    option = {
+                        tooltip: {
+                            trigger: 'axis',
+                            axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                                type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+                            }
+                        },
+                        legend: {
+                            data: ['利润', '支出', '收入']
+                        },
+                        grid: {
+                            left: '3%',
+                            right: '4%',
+                            bottom: '3%',
+                            containLabel: true
+                        },
+                        xAxis: [{
+                            type: 'value'
+                        }],
+                        yAxis: [{
+                            type: 'category',
+                            axisTick: {
+                                show: false
+                            },
+                            data: [3,4,5]
+                        }],
+                        series: [{
+                            name: '利润',
+                            type: 'bar',
+                            label: {
+                                normal: {
+                                    show: true,
+                                    position: 'inside'
+                                }
+                            },
+                            data: data.profit
+                        },
+                        {
+                            name: '收入',
+                            type: 'bar',
+                            stack: '总量',
+                            label: {
+                                normal: {
+                                    show: true
+                                }
+                            },
+                            data: data.income
+                        },
+                        {
+                            name: '支出',
+                            type: 'bar',
+                            stack: '总量',
+                            label: {
+                                normal: {
+                                    show: true,
+                                    position: 'left'
+                                }
+                            },
+                            data: data.expenditures
+                        }
+                        ]
+                    };
+                    myChart.setOption(option);
+                },  //end success
+                error: function (jqXHR) {
+                    console.log("请求失败");
+                }
+            });  //end ajax
+        });
+
+
+    </script>
+</body>
+</html>

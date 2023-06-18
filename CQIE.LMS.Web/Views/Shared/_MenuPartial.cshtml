@@ -1,0 +1,37 @@
+﻿@{
+    IQueryable<CQIE.LMS.Models.SystemMenu> menus = null;
+    var service = this.Context.RequestServices.GetService(typeof(CQIE.LMS.Services.ISystemMenuServices)) as CQIE.LMS.Services.ISystemMenuServices;
+    if (service != null)
+    {
+        menus = service.GetSystemMenus();
+    }
+
+
+}
+<ul class="menu">
+    @if (menus != null)
+    {
+        foreach (var menu in menus)
+        {
+            <li class="item">
+                <a href="@Url.Content(menu.Url)">
+                    <div class="icon"></div>
+                    <span>@menu.Name</span>
+                </a>
+
+            </li>
+            @if (menu.SubMenus.Count > 0)
+            {
+                @foreach (var subMenu in menu.SubMenus)
+                {
+                    <li class="item" style="padding-left:40px">
+                        <a href="@Url.Content(subMenu.Url)">
+                            <div class="icon"></div>
+                            <span>@subMenu.Name</span>
+                        </a>
+                    </li>
+                }
+            }
+        }
+    }
+</ul>

@@ -1,0 +1,40 @@
+﻿@model CQIE.LMS.Models.ExpenseReimbursementOrder
+
+<form action="~/Business/SaveReimbursement" method="post">
+    <div>
+        <table border="1" style="border-collapse: collapse;">
+            <tbody>
+                <tr>
+                    <td colspan="3" style="text-align: center">
+                        <h2>报销单</h2>
+                        <span style="text-align:right; color:red">NO.@Model.DetailsNumber</span>
+                        <input type="hidden" name="FAD_Id" value="@Model.FAD_Id" />
+                        <input type="hidden" name="FD_Id" value="@Model.FD_Id" />
+                        <input type="hidden" name="DetailsNumber" value="@Model.DetailsNumber" />
+                        <input type="hidden" name="Id" value="@Model.Id" />
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>姓名:<input type="text" value="@Model.FreightDispatOrder.DriverName" /></td>
+                    <td>电话:<input type="text" value="@Model.FreightDispatOrder.DriverTelephone" /></td>
+                    <td>时间:<input type="text" name="Time" value="@Model.Time" /></td>
+                </tr>
+                <tr>
+                    <td>费用说明</td>
+                    <td>金额</td>
+                    <td>备注</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="SourceOfExpensesDetails" value="@Model.SourceOfExpensesDetails" /></td>
+                    <td><input type="text" name="FeeAmount" value="@Model.FeeAmount" /></td>
+                    <td><input type="text" value="@Model.Notes" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <input type="submit" value="提交" style="border: solid 0px" />
+    </div>
+</form>

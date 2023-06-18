@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZwbkQBvoIip1P7zZ8Br+n/LF7SxUVzdjcBwK4MFfRXezMDxajvg6e+1NYeJXmP93EzYnVoNfQIjDxxn3TGqVLA==",
+  "success": true,
+  "projectFilePath": "E:\\文档\\Tencent Files\\QQ\\物流管理系统\\CQIE.LMS.Utility\\CQIE.LMS.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.23\\microsoft.extensions.configuration.3.1.23.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.23\\microsoft.extensions.configuration.abstractions.3.1.23.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.23\\microsoft.extensions.primitives.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}

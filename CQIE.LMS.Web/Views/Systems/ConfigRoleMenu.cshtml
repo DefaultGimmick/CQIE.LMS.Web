@@ -1,0 +1,64 @@
+﻿@inject CQIE.LMS.Services.ISystemMenuServices menuService
+@inject CQIE.LMS.Services.ISysOperationServices operationSerive
+@model CQIE.LMS.Models.Identity.SysRole
+
+
+<h1>
+    为角色分配菜单
+</h1>
+<style type="text/css">
+    .tbl {
+    }
+
+        .tbl a {
+            color: red
+        }
+</style>
+<form method="post" action="~/Systems/SaveRoleMenuOption">
+    <table class="tbl">
+        <tr>
+            <td>当前角色：</td>
+            <td>
+                <input type="hidden" name="roleId" value="@(Model == null ? 0 : Model.Id)" />
+                <span>@Model.Name</span>
+            </td>
+        </tr>
+        <tr>
+            <td>菜单：</td>
+            @{var menus = menuService.GetSystemMenus(); }
+            <td>
+
+                <select name="menuId">
+                    @foreach (var menu in menus)
+                    {
+                        <option value="@menu.Id">@menu.Name</option>
+
+                        @if (menu.SubMenus.Count > 0)
+                        {
+                            @foreach (var subMenu in menu.SubMenus)
+                            {
+                                <option value="@subMenu.Id">@subMenu.Name</option>
+
+                            }
+                        }
+                    }
+                </select>
+
+            </td>
+
+            <td>操作：</td>
+            @{var operations = operationSerive.GetSysOperations(); }
+            <td>
+                <select name="optionId">
+                    @foreach (var operation in operations)
+                    {
+                        <option value="@operation.Id">@operation.Name</option>
+                    }
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="保存" /></td>
+        </tr>
+    </table>
+</form>

@@ -1,0 +1,64 @@
+﻿@model CQIE.LMS.Models.FreightDispatchOrder
+
+
+<form action="~/Business/SaveDispatch" method="post">
+    <div>
+        <table border="1" style="border-collapse: collapse;">
+            <tbody>
+                <tr>
+                    <td colspan="6" style="text-align: center; font-size:35px" height="100px" valign="top">
+                        <h2>调度单</h2>
+                        <span style="text-align:right; color:red">NO.@Model.DispatchNumber</span>
+                        <input type="hidden" name="CCO_Id" value="@Model.CCO_Id" />
+                        <input type="hidden" name="FD_Id" value="@Model.FD_Id" />
+                        <input type="hidden" name="DispatchNumber" value="@Model.DispatchNumber" />
+                        <input type="hidden" name="Status" value="@(Model==null?0:Model.Status)" />
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td style="min-width: 200px">车辆：<input type="text" name="Car" value="@Model.Car" /></td>
+                    <td>司机：<input type="text" name="DriverName" value="@Model.DriverName"/></td>
+                    <td colspan="4">司机电话：<input type="text" name="DriverTelephone" value="@Model.DriverTelephone" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">托运人名称：<input type="text" name="SenderName" value="@Model.consignmentOrder.SenderName" /></td>
+                    <td style="min-width: 200px">托运人电话：<input type="text" name="SenderTelephone" value="@Model.consignmentOrder.SenderTelephone" /></td>
+                    <td colspan="2">托运人地址：<input type="text" name="SenderAddress" value="@Model.consignmentOrder.SenderAddress" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">收货人名称：<input type="text" name="ConsigneeName" value="@Model.consignmentOrder.ConsigneeName" /></td>
+                    <td style="min-width: 200px">收货人电话：<input type="text" name="ConsigneeTelephone" value="@Model.consignmentOrder.ConsigneeTelephone" /></td>
+                    <td colspan="2">收货人地址：<input type="text" name="ConsigneeAddress" value="@Model.consignmentOrder.ConsigneeAddress" /></td>
+                </tr>
+                <tr>
+                    <td>货物名称</td>
+                    <td>数量</td>
+                    <td>规格</td>
+                    <td>重量（KG）</td>
+                    <td>体积（立方）</td>
+                </tr>
+                @foreach (var order in Model.consignmentOrder.Freights)
+                {
+                    <tr>
+                        <td><input type="text" name="Name" value="@order.Name" /></td>
+                        <td><input type="text" name="Quantity" value="@order.Quantity" /></td>
+                        <td><input type="text" name="GoodsSKU" value="@order.GoodsSKU" /></td>
+                        <td><input type="text" name="GoodsWeight" value="@order.GoodsSKU" /></td>
+                        <td><input type="text" name="GoodsWeight" value="@order.GoodsWeight" /></td>
+                    </tr>
+                }
+                <tr>
+                    <td colspan="5">备注：<input type="text" name="Notes" value="@Model.Notes" /></td>
+                </tr>
+                <tr>
+                    <td colspan="4">制单时间：</td>
+                    <td>制单人: </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+     <div>
+        <input type="submit" value="提交" style="border: solid 0px" />
+    </div>
+</form>

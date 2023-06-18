@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CQIE.LMS.Web.props" />
+</Project>

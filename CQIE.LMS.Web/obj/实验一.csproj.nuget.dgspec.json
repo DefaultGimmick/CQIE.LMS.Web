@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\框架程序设计\\资源\\项目\\实验一\\实验一.csproj": {}
+  },
+  "projects": {
+    "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\框架程序设计\\资源\\项目\\实验一\\实验一.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\框架程序设计\\资源\\项目\\实验一\\实验一.csproj",
+        "projectName": "实验一",
+        "projectPath": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\框架程序设计\\资源\\项目\\实验一\\实验一.csproj",
+        "packagesPath": "C:\\Users\\中英\\.nuget\\packages\\",
+        "outputPath": "E:\\工程学院\\1. 软件学院\\2021-2022学年\\第二学期\\框架程序设计\\资源\\项目\\实验一\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\中英\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Projects\\MSHO\\trunk\\MSHO.Collection.FileConvert\\bin\\Debug": {},
+          "d:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "http://www.cyt369.com:8090/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

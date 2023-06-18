@@ -1,0 +1,204 @@
+﻿<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<div>
+    <form action="~/Business/SaveOrder" method="post">
+        <div>
+            <table border="1" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="9" style="text-align: center">
+                        <h2>货物托运单</h2>
+                        <span style="text-align:right; color:red"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:left">发站:<input type="text" name="ShippingLocation" /></td>
+                    <td colspan="3" style="text-align:left">到站:<input type="text" name="ReceivingLocation" /></td>
+                    <td>托运日期</td>
+                    <td colspan="2"><input type="text" name="DateOfShipment"  /></td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="2">寄件人</td>
+                    <td>名称</td>
+                    <td colspan="2"><input type="text" name="SenderName" /></td>
+                    <td>电话</td>
+                    <td colspan="2"><input type="text" name="SenderTelephone" /></td>
+                    <td rowspan="4" colspan="2" style="text-align:left; height:50px" valign="top">备注:<input type="text" name="Notes"  /></td>
+                </tr>
+                <tr>
+                    <td>地址</td>
+                    <td colspan="2"><input type="text" name="SenderAddress" /></td>
+                    <td>Email</td>
+                    <td colspan="2"><input type="text" name="SenderEmail" /></td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="2">收货人</td>
+                    <td>名称</td>
+                    <td colspan="2"><input type="text" name="ConsigneeName" /></td>
+                    <td>电话</td>
+                    <td colspan="2"><input type="text" name="ConsigneeTelephone"  /></td>
+                </tr>
+                <tr>
+                    <td>地址</td>
+                    <td colspan="2"><input type="text" name="ConsigneeAddress" /></td>
+                    <td>Email</td>
+                    <td colspan="2"><input type="text" name="ConsigneeEmail" /></td>
+                </tr>
+                <tr >
+                    <td>货物名称</td>
+                    <td>数量</td>
+                    <td>规格</td>
+                    <td>重量(kg)</td>
+                    <td>体积(立方)</td>
+                    <td>运费(元)</td>
+                    <td>送货费(元)</td>
+                    <td>保险费(元)</td>
+                    <td>合计费用(元)</td>
+
+                </tr>
+                <tr class="cargo-row">
+                    <td>
+                        <input type="checkbox" class="cargo-checkbox" />
+                        <input type="text" name="Name[]" />
+                    </td>
+                    <td><input type="text" name="Quantity[]" /></td>
+                    <td><input type="text" name="GoodsSKU[]" /></td>
+                    <td><input type="text" name="GoodsWeight[]" /></td>
+                    <td><input type="text" name="Volume[]" /></td>
+                    <td><input type="text" name="ShippingUnitPrice[]" /></td>
+                    <td><input type="text" name="DeliveryExpense[]" /></td>
+                    <td><input type="text" name="Premium[]" /></td>
+                    <td><input type="text" name="TotalCost[]" /></td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        <button type="button"  id="addCargoRow">添加货物</button>
+                        <button type="button"  id="deleteSelectedRows">删除货物</button>
+                    </td>
+                </tr>
+                <td>付款方式</td>
+                <td colspan="3">
+                    <input type="radio" id="PaymentMethod" name="PaymentMethod" value="0"><label for="PaymentMethod">现金</label>
+                    <input type="radio" id="PaymentMethod" name="PaymentMethod" value="1"><label for="PaymentMethod">月结</label>
+                    <input type="radio" id="PaymentMethod" name="PaymentMethod" value="2"><label for="PaymentMethod">收货人付款</label>
+                </td>
+                <td colspan="3">
+                    提货方式:&nbsp;
+                    <input type="radio" id="ReceivingMethod" name="ReceivingMethod" value="1"><label for="ReceivingMethod">自提</label>
+                    <input type="radio" id="ReceivingMethod" name="ReceivingMethod" value="2"><label for="ReceivingMethod">送货上门</label>
+
+                </td>
+                <td colspan="2" rowspan="5" style="text-align:left" valign="top">
+                    货物托运注意事项:<br />
+                    1.易碎物品不保证100%完整<br />
+                    2.收货人签字确认后视为货物<br />
+                    运输完成<br />
+                    3.货物根据体积和重量计费，对<br />
+                    未保护的货物不保证货物的完整性
+                </td>
+                <tr>
+                    <td>承运单位</td>
+                    <td colspan="3"><input type="text" name="Carrier" /></td>
+                    <td>电话</td>
+                    <td colspan="2"><input type="text" name="Telephone"/></td>
+                </tr>
+                <tr>
+                    <td colspan="3" rowspan="3" style="text-align:left" valign="top">承运代表签名(盖章)</td>
+                    <td colspan="2" rowspan="3" style="text-align:left" valign="top">托运代表签名(盖章)</td>
+                    <td colspan="2" rowspan="3" style="text-align:left" valign="top">收货人签名</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <input type="submit" value="提交" style="border: solid 0px" />
+        </div>
+    </form>
+</div>
+
+<script>
+    $("#addCargoRow").on("click", function () {
+        var newRowHtml = `
+            <tr class="cargo-row">
+                <td>
+                    <input type="checkbox" class="cargo-checkbox" />
+                    <input type="text" name="Name[]" />
+                </td>
+                <td><input type="text" name="Quantity[]" /></td>
+                <td><input type="text" name="GoodsSKU[]" /></td>
+                <td><input type="text" name="GoodsWeight[]" /></td>
+                <td><input type="text" name="Volume[]" /></td>
+                <td><input type="text" name="ShippingUnitPrice[]" /></td>
+                <td><input type="text" name="DeliveryExpense[]" /></td>
+                <td><input type="text" name="Premium[]" /></td>
+                <td><input type="text" name="TotalCost[]" /></td>
+            </tr>
+        `;
+        $(".cargo-row").before(newRowHtml);
+    });
+
+
+    $("#deleteSelectedRows").on("click", function () {
+        var selectedRows = $(".cargo-checkbox:checked").closest(".cargo-row");
+        selectedRows.remove();
+    });
+    $('form').submit(function (event) {
+        event.preventDefault(); // Prevent the form from submitting normally
+
+        var consignmentOrder = {
+            ShippingLocation: $('input[name="ShippingLocation"]').val(),
+            ReceivingLocation: $('input[name="ReceivingLocation"]').val(),
+            DateOfShipment: $('input[name="DateOfShipment"]').val(),
+            Notes: $('input[name="Notes"]').val(),
+            SenderName: $('input[name="SenderName"]').val(),
+            SenderTelephone: $('input[name="SenderTelephone"]').val(),
+            SenderAddress: $('input[name="SenderAddress"]').val(),
+            SenderEmail: $('input[name="SenderEmail"]').val(),
+            ConsigneeName: $('input[name="ConsigneeName"]').val(),
+            ConsigneeTelephone: $('input[name="ConsigneeTelephone"]').val(),
+            ConsigneeAddress: $('input[name="ConsigneeAddress"]').val(),
+            ConsigneeEmail: $('input[name="ConsigneeEmail"]').val(),
+            PaymentMethod: $("input[name='PaymentMethod']:checked").val(),
+            ReceivingMethod: $('input[name="ReceivingMethod"]:checked').val(),
+            Carrier: $('input[name="Carrier"]').val(),
+            Telephone: $('input[name="Telephone"]').val(),
+        };
+        console.log(consignmentOrder);
+        var data = [];
+
+        $('.cargo-row').each(function () {
+            var name = $(this).find('input[name="Name[]"]').val();
+            var quantity = $(this).find('input[name="Quantity[]"]').val();
+            var goodsSKU = $(this).find('input[name="GoodsSKU[]"]').val();
+            var goodsWeight = $(this).find('input[name="GoodsWeight[]"]').val();
+            var volume = $(this).find('input[name="Volume[]"]').val();
+            var shippingUnitPrice = $(this).find('input[name="ShippingUnitPrice[]"]').val();
+            var deliveryExpense = $(this).find('input[name="DeliveryExpense[]"]').val();
+            var premium = $(this).find('input[name="Premium[]"]').val();
+            var totalCost = $(this).find('input[name="TotalCost[]"]').val();
+
+            data.push({
+                Name: name,
+                Quantity: quantity,
+                GoodsSKU: goodsSKU,
+                GoodsWeight: goodsWeight,
+                Volume: volume,
+                ShippingUnitPrice: shippingUnitPrice,
+                DeliveryExpense: deliveryExpense,
+                Premium: premium,
+                TotalCost: totalCost
+            });
+        });
+        console.log(data);
+        $.ajax({
+            type: 'POST',
+            url: '/Business/SaveOrder',
+            data: { order: consignmentOrder, freights: data },
+            success: function (response) {
+                alert("添加成功");
+                window.location.href = 'OrderList';
+            },
+            error: function (xhr, status, error) {
+                console.log('请求失败'+xhr.status);
+                console.log(error);
+            }
+        });
+    });
+</script>
